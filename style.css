@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+body {
+   background-color: #1561AD;
+}
+.container{
+  min-height: 100vh;
+
+  width: 80%; /* Sets the width to 80% of its parent container */
+  max-width: 1000px; /* Ensures it doesn't exceed 1000px */
+  margin: 0 auto;
+  border-radius: 12px;
+  
+  
+}
+.create-notes {
+  background-color: orangered;
+  border: none;
+  margin-left: 40px;
+  padding: 8px;
+  border-radius: 15px;
+  color: white;
+  width: 100x;
+  height: 35px;
+  font-size: 16px;
+  cursor: pointer;
+    
+  
+  
+}
+
+.create-notes:hover {
+  background-color: #FF7F50;
+}
+.notes-title {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  font-size: 35px;
+  font-weight: 600;
+  
+}
+.input-box {
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  color: black;
+  padding: 30px;
+  border-radius: 10px;
+  
+  outline: none;
+  
+  
+}
+
+.delete-icon {
+  width: 55px;
+  
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+  bottom: 25px;
+  background-color: transparent;
+  border: none;
+  
+}
+.note {
+   position: relative;
+  padding: 0px;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  margin: 20px 0;
+  
+}
+.input-field {
+  margin-top:20px;
+  
+  
+}
+.footer {
+  position: relative;
+}
+.footer-div {
+  text-align: center;
+}
